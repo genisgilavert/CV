@@ -298,8 +298,9 @@ h1 {
 }
 
 body {
-    margin: 2% 7% 2%;
+    margin: 2% 7% 0%;
     border-top: 10px solid rgb(239, 184, 16);
+    margin-bottom: 150px;
 }
 
 .alignHorizontal * {
@@ -413,13 +414,13 @@ i {
     border-width: 3px;
     border-color: rgb(239, 184, 16);
     padding: 2px 5px 5px;
-    margin: 2px 0px;
+    margin: 5px 0px 10px;
 }
 
 h3{
     text-decoration: underline;
-    margin: 7px 0px;
-    font-size: 17px;
+    margin: 10px 0px;
+    font-size: 18px;
 }
 
 .shadow{
@@ -462,4 +463,16 @@ h4{
 
 .width{
     width: 47%;
+}
+
+.pack{
+    margin-bottom: 6px;
+}
+
+.margin_top{
+    margin-top: 10px;
+}
+
+.marginLeft{
+    margin-left: 30px;
 }
